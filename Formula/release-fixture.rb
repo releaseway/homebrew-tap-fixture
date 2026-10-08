@@ -1,5 +1,5 @@
-# releaseway-version: 1.2.5
-# releaseway-source-commit: fd3468b3737bb0f9e9646466bbdd369d464e5f1f
+# releaseway-version: 1.2.7
+# releaseway-source-commit: e2081acd6433fc44284fd79e0faee8e375908408
 class ReleaseFixture < Formula
   desc "Deterministic release asset fixture for automation integration tests"
   homepage "https://github.com/releaseway/release-fixture"
@@ -8,23 +8,23 @@ class ReleaseFixture < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.5/release-fixture_macos_arm64.tar.gz"
-      sha256 "bd2c68f8f5dd6321ef2a016000d19621f64982549aebcac6877fc9db86dbde27"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.7/release-fixture_macos_arm64.tar.gz"
+      sha256 "794ce3715c14da89c3ec5858c6c66b66de7c78f8a5aa0dd95f019b52cf820333"
     end
     on_intel do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.5/release-fixture_macos_x86_64.tar.gz"
-      sha256 "fc5402d3ed351ccda4d20f867a00afb3b62360a2685bb349d8c381f3cea931cb"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.7/release-fixture_macos_x86_64.tar.gz"
+      sha256 "d68b8a2d08935e564a7132b029af5d66ed78e66876a3a5d1413539959922ec31"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.5/release-fixture_linux_arm64.tar.gz"
-      sha256 "114622aa58c55ef33efa17e7a80544282207e720e4a0591ac32d00151358970c"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.7/release-fixture_linux_arm64.tar.gz"
+      sha256 "77fe9daea3692acb4fb3c7e7b070e2f446e473422311dbc5b9d311492445dc32"
     end
     on_intel do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.5/release-fixture_linux_x86_64.tar.gz"
-      sha256 "f5547d32ba1be8677be0eb67908dfc8195351e274533dd5c30379e8ad3b5e302"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.7/release-fixture_linux_x86_64.tar.gz"
+      sha256 "0bea6451a87158cba0416db9e1ec3ac0fdc4b7c9044d8b82874801cadfdf97a1"
     end
   end
 
