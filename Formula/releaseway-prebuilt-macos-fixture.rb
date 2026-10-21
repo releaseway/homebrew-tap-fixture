@@ -1,22 +1,22 @@
-# releaseway-version: 1.39541318692.1
-# releaseway-source-commit: 08097d5476446c455ae3bd62b80016440a4f32fe
+# releaseway-version: 1.39543238690.1
+# releaseway-source-commit: d554d19f2bd2ec1df7a110ff26f1b4446c50bb4e
 class ReleasewayPrebuiltMacosFixture < Formula
   desc "Native Apple Silicon binary fixture for Homebrew platform acceptance"
   homepage "https://github.com/releaseway/release-fixture"
-  url "https://github.com/releaseway/release-fixture/releases/download/homebrew-features-1.39541318692.1/releaseway-native-fixture_macos_arm64.tar.gz"
-  sha256 "0a46ede626ef2721463fbcacb452af48fd3f9e616f3da4b3387bb4fd51920f3c"
+  url "https://github.com/releaseway/release-fixture/releases/download/homebrew-features-1.39543238690.1/releaseway-native-fixture_macos_arm64.tar.gz"
+  sha256 "fe662e5df85fcab2c27bfe01098c1203fcf599c4027b9100657ad7d7ed9f1458"
   license "MIT"
 
   depends_on :macos
   on_macos do
     on_arm do
-      url "https://github.com/releaseway/release-fixture/releases/download/homebrew-features-1.39541318692.1/releaseway-native-fixture_macos_arm64.tar.gz"
-      sha256 "0a46ede626ef2721463fbcacb452af48fd3f9e616f3da4b3387bb4fd51920f3c"
+      url "https://github.com/releaseway/release-fixture/releases/download/homebrew-features-1.39543238690.1/releaseway-native-fixture_macos_arm64.tar.gz"
+      sha256 "fe662e5df85fcab2c27bfe01098c1203fcf599c4027b9100657ad7d7ed9f1458"
     end
     depends_on arch: :arm64
   end
 
-  version "1.39541318692.1" if version.to_s != "1.39541318692.1"
+  version "1.39543238690.1" if version.to_s != "1.39543238690.1"
 
   def install
     bin.install "releaseway-native-fixture"
