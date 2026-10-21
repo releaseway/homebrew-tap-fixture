@@ -1,11 +1,11 @@
-# releaseway-version: 1.2.15
-# releaseway-source-commit: 54831013cb33f6aebe2ecf26b84d858c01164182
+# releaseway-version: 1.2.16
+# releaseway-source-commit: bf773b0a6080d28816bf1e83f673fde0b0462101
 class ReleaseSourceFixture < Formula
   desc "Deterministic source archive fixture for Homebrew automation integration tests"
   homepage "https://github.com/releaseway/release-fixture"
-  url "https://github.com/releaseway/release-fixture/archive/54831013cb33f6aebe2ecf26b84d858c01164182.tar.gz"
-  version "1.2.15"
-  sha256 "a993a816c4de44ba7ead47afeec105db60f79c7c6058758c59b0260b2dc6cfa4"
+  url "https://github.com/releaseway/release-fixture/archive/bf773b0a6080d28816bf1e83f673fde0b0462101.tar.gz"
+  version "1.2.16"
+  sha256 "0c42c606e57936da4f6893597e785a89f8815a51e84f065a1a32bd7005edf270"
   license "MIT"
   version_scheme 1
 
