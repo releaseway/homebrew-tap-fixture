@@ -1,5 +1,8 @@
 # releaseway-version: 1.39606116893.1
 # releaseway-source-commit: bf773b0a6080d28816bf1e83f673fde0b0462101
+# releaseway-spec-commit: ab54e2e3d1fa23bd7eea088183b143be946be92d
+# releaseway-spec-path: .github/homebrew/features/source.yml
+# releaseway-spec-sha256: 8e6716b1f89ec3d9bd9c2efbf0ea53ae3199f5f763bb6eff8863c682f9984228
 class ReleasewaySourcePlatformFixture < Formula
   desc "Native source fixture for Homebrew platform and revision acceptance"
   homepage "https://github.com/releaseway/release-fixture"
@@ -7,6 +10,7 @@ class ReleasewaySourcePlatformFixture < Formula
   version "1.39606116893.1"
   sha256 "0c42c606e57936da4f6893597e785a89f8815a51e84f065a1a32bd7005edf270"
   license "MIT"
+  revision 1
 
   depends_on "go" => :build
 
