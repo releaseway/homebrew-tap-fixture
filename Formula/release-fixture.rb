@@ -1,5 +1,5 @@
-# releaseway-version: 1.2.16
-# releaseway-source-commit: bf773b0a6080d28816bf1e83f673fde0b0462101
+# releaseway-version: 1.2.18
+# releaseway-source-commit: aba6878789f43add767b0004729062cf1c0d1c73
 class ReleaseFixture < Formula
   desc "Deterministic release asset fixture for automation integration tests"
   homepage "https://github.com/releaseway/release-fixture"
@@ -8,27 +8,27 @@ class ReleaseFixture < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.16/release-fixture_macos_arm64.tar.gz"
-      sha256 "4b004f90a4098d2ffb715ce62b33c30a5e70eaf644b37a7225f6779066afe713"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.18/release-fixture_macos_arm64.tar.gz"
+      sha256 "21ddde9b631c2c0f8d8cf709deb203bedcd8558bb79d9dfcb8a5e2b1f531bd04"
     end
     on_intel do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.16/release-fixture_macos_x86_64.tar.gz"
-      sha256 "0d015624e7d4c04ba6d39446e6010373fb96e9a3dc33a8b173dbbf733cd4d8dd"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.18/release-fixture_macos_x86_64.tar.gz"
+      sha256 "e84370a6bbecb1039a7a1966adbf9b26b164d120258af90de11290e2066751ec"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.16/release-fixture_linux_arm64.tar.gz"
-      sha256 "13ec741a3e78766d134b1214deb82c62cf2c64f4d01e5eb77562ff93a8041394"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.18/release-fixture_linux_arm64.tar.gz"
+      sha256 "d5f457593a15a944b175a482fcdfd726709cb808746362e8e1d256a9e7feb65c"
     end
     on_intel do
-      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.16/release-fixture_linux_x86_64.tar.gz"
-      sha256 "4a21bd1451824abfa972c2742f291342f41b3d04a51d5b6afcd0a8e91c669b78"
+      url "https://github.com/releaseway/release-fixture/releases/download/v1.2.18/release-fixture_linux_x86_64.tar.gz"
+      sha256 "3a69fabb54cf2160cb7541424b74f22a7a7a551deb10d10b400ea53e88bf3b87"
     end
   end
 
-  version "1.2.16" if version.to_s != "1.2.16"
+  version "1.2.18" if version.to_s != "1.2.18"
 
   def install
     bin.install "release-fixture"
